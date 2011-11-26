@@ -70,7 +70,7 @@ except ImportError:
     _tkinter = None
 
 
-NAME = 'Pillow'
+NAME = 'Pillbox'
 VERSION = '1.7.6'
 PIL_VERSION = '1.1.7'
 TCL_ROOT = None
@@ -451,9 +451,9 @@ setup(
         _read('README.rst') +
         _read('docs/INSTALL.txt') +
         _read('docs/HISTORY.txt')),
-    author='Alex Clark (fork author)',
-    author_email='aclark@aclark.net',
-    url='http://github.com/collective/Pillow',
+    author="Corbin Simpson (and all of the PIL contributors!)",
+    author_email="MostAwesomeDude@gmail.com",
+    url='http://github.com/MostAwesomeDude/Pillbox',
     classifiers=[
         "Development Status :: 6 - Mature",
         "Topic :: Multimedia :: Graphics",
